@@ -1,4 +1,4 @@
-0.2.Problem: Vegetable Market
+02.Problem: Vegetable Market
 A gardener is selling his harvest on the vegetables market. He is selling vegetables for N coins per 
 kilogram and fruits for M coins per kilogram. Write a program that calculates the earnings of the 
 harvest in Euro (EUR). Assume the EUR / coin rate is fixed: 1 Euro == 1.94 coins.
