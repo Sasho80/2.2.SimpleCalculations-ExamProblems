@@ -111,3 +111,36 @@ Input Output
 5678
 2.4
 
+05.Problem: Daily Earnings
+Ivan is a programmer in an American company, and he works at home approximately N days per month
+by earning approximately M dollars per day. At the end of the year, Ivan gets a bonus, which equals 
+2.5 of his monthly salaries. In addition, 25% of his annual salary goes for taxes.
+Write a program that calculates what is the amount of Ivan's net average earnings in EUR per day, as 
+he spends them in Europe. It is assumed that one year has exactly 365 days. The exchange rate of US 
+dollar (USD) to Euro (EUR) will be read from the console.
+Input Data
+Three numbers are read from the console.
+104 Programming Basics with C#
+• On the first line – workdays per month. An integer within the range of [5 … 30].
+• On the second line – daily earnings. A floating-point number within the range of [10.00 … 
+2000.00].
+• On the third line – exchange rate of USD to EUR: 1 dollar = X euro. A floating-point number 
+within the range of [0.05 … 4.99].
+Output Data
+Print one number on the console – the daily earnings in EUR. The result should be rounded up to the 
+second digit after the decimal point.
+Sample Input and Output
+Input Output 
+  
+Input Output Input Output Input   Output 
+21    41.30  15    80.24  22      196.63
+75.00        105          199.99
+0.88         1.71         1.50
+
+Explanation for the first example:
+• One monthly salary = 21 * 75.00 = 1575 dollars.
+• Annual income = 1575 * 12 months + 1575 * 2.5 bonus = 22837.5 dollars.
+• Taxes = 25% of 22837.5 = 5709.375 dollars.
+• Net annual income in USD = 22837.5 - 5709.375 = 17128.125 dollars.
+• Net annual income in EUR = 17128.125 dollars * 0.88 = 15072.75 EUR.
+• Average earnings per day = 15072.75 / 365 ≈ 41.30 EUR.
